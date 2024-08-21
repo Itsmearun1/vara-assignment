@@ -1,8 +1,28 @@
-# React + Vite
+#CSV File Upload
+This project allows you to upload a CSV file and display its contents in a table with pagination.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+#Features
+Upload a CSV file
+Display CSV data in a table
+Paginate through the data
 
-Currently, two official plugins are available:
+#How to Use
+Clone the repository:
+git clone https://github.com/Itsmearun1/vara-assignment.git
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Navigate to the project directory:
+cd vara-assignment
+
+Install the dependencies:
+npm install
+
+Start the application using Vite:
+npm run dev
+
+Open your browser and go to http://localhost:3000.
+
+#Dependencies
+React
+PapaParse
+Material-UI
+Vite
